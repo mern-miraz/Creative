@@ -1,0 +1,536 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6, a{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+nav{
+    align-items: center;
+    background-color: #fff;
+}
+.nav_main{
+    display: flex;
+    height: 83px;
+    padding: 33px 0 35px 0;
+}
+.nav_menu ul{
+    display: flex;
+    align-items: center;
+    height: 83px;
+    text-align: start;
+    padding-left: 203px;
+}
+.nav_menu ul a{
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav_menu ul a:hover{
+    color: #5956E8;
+}
+/* nav part end */
+
+/* banner part satrt */
+#ban{
+    background-color: #5956E8;
+}
+.ban_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 182px 71.27px 128px 0;
+}
+.ban_text{
+    width: 45%;
+}
+.ban_text h3{
+    font-family: 'Inter', sans-serif;
+    color: #FFFEFE;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+    padding-top: 47px;
+}
+.ban_text p{
+    font-family: 'Inter', sans-serif;
+    color: #FFFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 25px;
+    padding-bottom: 59px;
+}
+.ban_text a{
+    font-family: 'Inter', sans-serif;
+    color: #5956E8;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 22px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 179px;
+}
+.ban_img{
+    width: 45%;
+    padding-left: 77px;
+}
+.ban_img img{
+    width: 100%;
+}
+/* banner part end */
+
+/* service part satrt */
+#service{
+    background-color: #FFFFFF;
+}
+.service_text{
+    text-align: center;
+    margin-top: 100px;
+}
+.service_text h2{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service_text p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0 304px;
+}
+
+/* 1st row start */
+.service_row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.service_row1 .img{
+    margin: 63px 0 0 48px;
+    height: 71px;
+    width: 71px;
+}
+.service_row1 .img img{
+    width: 100%;
+}
+.service_ui{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_ui h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_ui p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+.service_web{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_web h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_web p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+.service_dm{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_dm h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_dm p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+
+/* 1st row end */
+
+/* 2nd row start */
+.service_row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.service_row2 .img{
+    margin: 63px 0 0 48px;
+    height: 71px;
+    width: 71px;
+}
+.service_row2 .img img{
+    width: 100%;
+}
+.service_gd{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_gd h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_gd p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+.service_wd{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_wd h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_wd p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+.service_md{
+    width: 370px;
+    height: 385px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+}
+.service_md h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 30px 0 0 48px;
+}
+.service_md p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 48px 0;
+    line-height: 27px;
+}
+/* 2nd row end */
+/* service part end */
+
+/* port part start */
+#port{
+    background-color: #fff;
+}
+.port_main{
+    margin-top: 100px;
+}
+/* port_text start */
+.port_text{
+    text-align: center;
+}
+.port_text h2{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.port_text p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0 304px;
+}
+/* port_text end */
+
+/* port_module satrt */
+.port_module{
+    margin-top: 30px;
+}
+.port_module ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.port_module ul li a{
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size:20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+}
+.port_module a:hover{
+    color: #5956E8;
+}
+.port_module a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #5956E8;
+    transition: 0.5s;
+}
+.port_module a:hover::after{
+    width: 100%;
+}
+/* port_module end */
+
+/* port_img part start */
+.port_img{
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.port_img img{
+    width: 100%;
+}
+.img_one{
+    width: 270px;
+    height: 319px;
+}
+.img_two{
+    width: 270px;
+    height: 319px;
+}
+.img_three{
+    width: 270px;
+    height: 319px;
+}
+.img_four{
+    width: 270px;
+    height: 319px;
+}
+/* port_img part end */
+
+/* port_img2 part start */
+.port_img2{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.port_img2 img{
+    width: 100%;
+}
+.img2_one{
+    width: 270px;
+    height: 319px;
+}
+.img2_two{
+    width: 270px;
+    height: 319px;
+}
+.img2_three{
+    width: 270px;
+    height: 319px;
+}
+.img2_four{
+    width: 270px;
+    height: 319px;
+}
+/* port_img2 part end */
+/* port part end */
+
+/* team member part satrt */
+#team{
+    background-color: #fff;
+}
+.team_main{
+    margin-top: 100px;
+}
+.team_text{
+    text-align: center;
+}
+.team_text h2{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size:40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.team_text p{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0 304px;
+    margin-top: 10px;
+}
+
+/* team img part start */
+.team_img{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team_img img{
+    width: 100%;
+}
+.team_img1{
+    background: url(../images/member1.png) no-repeat center / cover;
+    width: 370px;
+    height: 444px;
+    border-radius: 10px;
+    color: line;
+}
+.team_img1 h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 356px 118px 0;
+    color: #FFFEFE;
+}
+.team_img1 h5{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0px 138px;
+    color: #FFFEFE;
+}
+.team_img2{
+    background: url(../images/member2.png) no-repeat center / cover;
+    width: 370px;
+    height: 444px;
+    border-radius: 10px;
+}
+.team_img2 h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 356px 118px 0;
+    color: #FFFEFE;
+}
+.team_img2 h5{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0px 138px;
+    color: #FFFEFE;
+}
+.team_img3{
+    background: url(../images/member3.png) no-repeat center / cover;
+    width: 370px;
+    height: 444px;
+    border-radius: 10px;
+}
+.team_img3 h4{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 356px 142px 0;
+    color: #FFFEFE;
+}
+.team_img3 h5{
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    padding: 0 124px 0 125px;
+    color: #FFFEFE;
+}
+/* team img part end */
+/* team member part end */
